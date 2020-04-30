@@ -7,7 +7,7 @@
     - [ ] food list
 - [ ] login page
 - [ ] registration page
-- [ ] input page
+- [ ] create page
     - [ ] food category
     - [ ] food list
 - [ ] edit page
