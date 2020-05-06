@@ -5,8 +5,8 @@
     - [ ] navbar
     - [ ] food category
     - [ ] food list
-- [ ] login page
-- [ ] registration page
+- [x] login page
+- [x] registration page
 - [ ] create page
     - [ ] food category
     - [ ] food list
