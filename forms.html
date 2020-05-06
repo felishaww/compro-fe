@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <title>Sign In</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="forms.css">
+
+    <title>Forms</title>
 </head>
 <body>
 	<div class="container" id="forms">
@@ -13,22 +14,22 @@
 		  <div class="overlay">
 			<div class="overlay-left">
 			  <h2>Welcome Back!</h2>
-			  <p>Please login with your personal info</p>
-			  <button class="invert" id="signIn" >Sign In</button>
+			  <p>Udah punya akun ya? Yuk, sign in!</p>
+			  <button class="invert" id="signIn">Sign In</button>
 			</div>
 			<div class="overlay-right">
-			  <h2>Hello, Friend!</h2>
-			  <p>Please enter your personal details</p>
+			  <h2>Hello, New Friend!</h2>
+			  <p>Kamu staff baru? Yuk, sign up dulu!</p>
 			  <button class="invert" id="signUp">Sign Up</button>
 			</div>
 		  </div>
 		</div>
 		<form class="sign-up" action="#">
-		  <h2>Create login</h2>
-		  <div>Use your email for registration</div>
+		  <h2>Sign Up</h2>
+		  <div>Use your staff id for registration</div>
 		  <input type="text" placeholder="Name" />
-		  <input type="email" placeholder="Email" />
 		  <input type="password" placeholder="Password" />
+		  <input type="password" placeholder="Confirm Password" />
 		  <button>Sign Up</button>
 		</form>
 		<form class="sign-in" action="#">
@@ -37,8 +38,9 @@
 		  <input type="email" placeholder="Email" />
 		  <input type="password" placeholder="Password" />
 		  <a href="#">Forgot your password?</a>
-		  <button>Sign Up</button>
+		  <button>Sign In</button>
 		</form>
 	  </div>
+	  <script src="forms.js"></script>
 </body>
 </html>
