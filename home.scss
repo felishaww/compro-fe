@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, Montserrat, Tahoma;;
+}
+
+$pink : #FF9293;
+$yellow: #FFDD67;
+$choco: #95776E;
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $yellow;
+    padding: 1rem;
+    .nav-item{
+        color: rgb(194, 152, 0);
+        font-weight: bold;
+        font-size: 1rem;
+        margin: 1rem;
+        text-decoration: none;
+        &:hover {
+            color: $pink;
+        }
+    }
+    
+}
+
+.sec-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $pink;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 11rem;
+    padding-bottom: 5rem;;
+    h1 {
+        font-weight: 900;
+        font-size: 7rem;
+        span {
+            color: $yellow;
+        }
+    }
+    .decor{
+        position: absolute;
+        left: 60%;
+    }
+    .decor1{
+        position: absolute;
+        width: 5.4%;
+        top: 35.5%;
+        left: 66%;
+    }
+    .decor2{
+        position: absolute;
+        width: 17%;
+        left: 0;
+        top: 47%;
+    }
+    .head-content{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    .decor3{
+        padding-top: 2rem;
+    }
+    
+}
+
+@mixin heading(){
+    color: $pink;
+    font-weight: 700;
+    text-align: center;
+    font-size: 3.5rem;
+}
+@mixin content-loops{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 6rem;
+}
+
+.food-category{
+   display: flex;
+   flex-direction: column; 
+   padding: 5rem 20rem;
+   h1{
+    @include heading();
+   }
+   .category-content{
+       @include content-loops();
+        .category-item {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           padding: 1rem 2rem;
+           .icon-container{
+               width: 15rem;
+               height: 15rem;
+               border-style: groove;
+               display: flex;
+               justify-content: center;
+               img{
+                   display: block;
+                   width: 80%;
+               }
+        }
+        p{
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #414040;
+        }
+       }
+   }
+}
+
+.food-list{
+    h1{
+        @include heading();
+    }
+    .list-content{
+        margin: 2rem 20rem;
+        .list-item{
+            display: flex;
+            flex-direction: row;
+            .img-container{
+                margin: 1.2rem;
+                img{
+                    width: 8rem;
+                }
+            }
+            .list-details {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                margin: 1.2rem;
+                h4{
+                    font-size: 1.5rem;
+                    span{
+                        color: $pink;
+                    }
+                }
+                p {
+                    font-size: 1rem;
+                    color: $choco;
+                    margin-top: 0.5rem;
+                }
+            }
+
+        }
+    }
+}
+
