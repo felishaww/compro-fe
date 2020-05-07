@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, Montserrat, Tahoma;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFDD67;
+  padding: 1rem;
+}
+.nav .nav-item {
+  color: #c29800;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 1rem;
+  text-decoration: none;
+}
+.nav .nav-item:hover {
+  color: #FF9293;
+}
+
+.sec-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FF9293;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 11rem;
+  padding-bottom: 5rem;
+}
+.sec-1 h1 {
+  font-weight: 900;
+  font-size: 7rem;
+}
+.sec-1 h1 span {
+  color: #FFDD67;
+}
+.sec-1 .decor {
+  position: absolute;
+  left: 60%;
+}
+.sec-1 .decor1 {
+  position: absolute;
+  width: 5.4%;
+  top: 35.5%;
+  left: 66%;
+}
+.sec-1 .decor2 {
+  position: absolute;
+  width: 17%;
+  left: 0;
+  top: 47%;
+}
+.sec-1 .head-content {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.sec-1 .decor3 {
+  padding-top: 2rem;
+}
+
+/*# sourceMappingURL=home.css.map */
