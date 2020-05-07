@@ -224,4 +224,39 @@
   margin: 0.5rem 3rem;
 }
 
+.sec-5 {
+  background-color: #FFDD67;
+  margin: 2rem;
+  padding: 3rem;
+  border-radius: 15px;
+}
+.sec-5 h1 {
+  color: #FF9293;
+  font-weight: 700;
+  text-align: center;
+  font-size: 3.5rem;
+}
+.sec-5 h1 span {
+  color: #fff;
+}
+.sec-5 .sec-5-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec-5 .sec-5-content .drinks {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+.sec-5 .sec-5-content .drinks img {
+  width: 15rem;
+}
+.sec-5 .sec-5-content .drinks h5 {
+  font-size: 2.4rem;
+  text-align: center;
+  margin: 0.5rem;
+}
+
 /*# sourceMappingURL=home.css.map */

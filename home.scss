@@ -229,4 +229,34 @@ $choco: #95776E;
     margin-bottom: 7rem;
 }
 
-
+.sec-5{
+    background-color: $yellow;
+    margin: 2rem;
+    padding: 3rem;
+    border-radius: 15px;
+    h1{
+        @include heading();
+        span{
+            color: #fff;
+        }
+    }
+    .sec-5-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .drinks{
+            display: flex;
+            flex-direction: column;
+            margin: 2rem;
+            img{
+                width: 15rem;
+            }
+            h5{
+                font-size: 2.4rem;
+                text-align: center;
+                margin: 0.5rem;
+            }
+        }
+    }
+}
