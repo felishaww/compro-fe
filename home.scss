@@ -7,6 +7,7 @@
 
 $pink : #FF9293;
 $yellow: #FFDD67;
+$choco: #95776E;
 
 .nav {
     display: flex;
@@ -70,23 +71,30 @@ $yellow: #FFDD67;
     
 }
 
+@mixin heading(){
+    color: $pink;
+    font-weight: 700;
+    text-align: center;
+    font-size: 3.5rem;
+}
+@mixin content-loops{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 6rem;
+}
+
 .food-category{
    display: flex;
    flex-direction: column; 
    padding: 5rem 20rem;
    h1{
-       color: $pink;
-       font-weight: 700;
-       text-align: center;
-       font-size: 3.5rem;
+    @include heading();
    }
    .category-content{
-       display: flex;
-       flex-direction: row;
-       flex-wrap: wrap;
-       justify-content: center;
-       padding-top: 6rem;
-       .category-item {
+       @include content-loops();
+        .category-item {
            display: flex;
            flex-direction: column;
            align-items: center;
@@ -110,3 +118,41 @@ $yellow: #FFDD67;
        }
    }
 }
+
+.food-list{
+    h1{
+        @include heading();
+    }
+    .list-content{
+        margin: 2rem 20rem;
+        .list-item{
+            display: flex;
+            flex-direction: row;
+            .img-container{
+                margin: 1.2rem;
+                img{
+                    width: 8rem;
+                }
+            }
+            .list-details {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                margin: 1.2rem;
+                h4{
+                    font-size: 1.5rem;
+                    span{
+                        color: $pink;
+                    }
+                }
+                p {
+                    font-size: 1rem;
+                    color: $choco;
+                    margin-top: 0.5rem;
+                }
+            }
+
+        }
+    }
+}
+

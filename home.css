@@ -106,4 +106,41 @@
   color: #414040;
 }
 
+.food-list h1 {
+  color: #FF9293;
+  font-weight: 700;
+  text-align: center;
+  font-size: 3.5rem;
+}
+.food-list .list-content {
+  margin: 2rem 20rem;
+}
+.food-list .list-content .list-item {
+  display: flex;
+  flex-direction: row;
+}
+.food-list .list-content .list-item .img-container {
+  margin: 1.2rem;
+}
+.food-list .list-content .list-item .img-container img {
+  width: 8rem;
+}
+.food-list .list-content .list-item .list-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 1.2rem;
+}
+.food-list .list-content .list-item .list-details h4 {
+  font-size: 1.5rem;
+}
+.food-list .list-content .list-item .list-details h4 span {
+  color: #FF9293;
+}
+.food-list .list-content .list-item .list-details p {
+  font-size: 1rem;
+  color: #95776E;
+  margin-top: 0.5rem;
+}
+
 /*# sourceMappingURL=home.css.map */
