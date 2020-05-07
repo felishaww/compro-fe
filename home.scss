@@ -82,7 +82,7 @@ $choco: #95776E;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 6rem;
+    padding-top: 2rem;
 }
 
 .food-category{
@@ -155,4 +155,78 @@ $choco: #95776E;
         }
     }
 }
+
+.sec-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h3{
+        margin-top: 6rem;
+        font-size: 2.8rem;
+        font-weight: bold;
+        color: $pink;
+        span{
+            color: $choco;
+        }
+    }
+    h1 {
+        font-size: 3.7rem;
+        color: $pink;
+        span{
+             color: $choco;
+        }
+    }
+    img{
+        width: 60%;
+    }
+    h2{
+        color: $choco;
+        font-size: 3.2rem;
+        span {
+            color: rgb(223, 43, 43);
+        }
+    }
+    h4{
+        color: $choco;
+        font-size: 2rem;
+    }
+    @mixin sec4(){
+        width: 28rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        h4{
+            text-align: center;
+            color: $pink;
+            margin: 1rem;
+        }
+    }
+    @mixin sec-4-lists(){
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: $choco;
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin: 0.5rem 3rem;
+    }
+    .sec-4-content{
+        display: flex;
+        flex-direction: row;
+        .ingredients{
+            @include sec4();
+            .ingredients-item{
+                @include sec-4-lists();
+            }
+        }
+        .nutrition-fact{
+            @include sec4();
+            .fact-item{
+                @include sec-4-lists();
+            }
+        }
+    }
+    margin-bottom: 7rem;
+}
+
 
