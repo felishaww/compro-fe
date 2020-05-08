@@ -248,17 +248,17 @@ $choco: #95776E;
     .sec-5-content{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        .drinks{
+        .fave{
             display: flex;
             flex-direction: column;
             margin: 2rem;
             img{
-                width: 15rem;
+                width: 35rem;
             }
             h5{
-                font-size: 2.4rem;
+                font-size: 3rem;
                 text-align: center;
                 margin: 0.5rem;
             }
@@ -280,7 +280,7 @@ $choco: #95776E;
         width: 20%;
         height: 20%;
         left: 80%;
-        top: 273rem;
+        top: 292rem;
     }
     .sec-6-content{
         display: flex;
@@ -302,3 +302,4 @@ $choco: #95776E;
         }
     }
 }
+
