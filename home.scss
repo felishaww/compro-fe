@@ -15,6 +15,9 @@ $choco: #95776E;
     align-items: center;
     background-color: $yellow;
     padding: 1rem;
+    position: fixed;
+    width: 100%; 
+    transition: top 0.3s; 
     .nav-item{
         color: rgb(194, 152, 0);
         font-weight: bold;
@@ -23,6 +26,17 @@ $choco: #95776E;
         text-decoration: none;
         &:hover {
             color: $pink;
+        }
+    }
+    .sign-in-btn{
+        border-radius: 20px;
+        border: 4px solid  $pink;
+        font-size: 1rem;
+        font-weight: bold;
+        padding: 5px 30px;
+        &:hover{
+            background-color: $pink;
+            color: #fff;
         }
     }
     
@@ -36,7 +50,7 @@ $choco: #95776E;
     color: #fff;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 11rem;
+    padding-top: 15rem;
     padding-bottom: 5rem;;
     h1 {
         font-weight: 900;
@@ -52,14 +66,14 @@ $choco: #95776E;
     .decor1{
         position: absolute;
         width: 5.4%;
-        top: 35.5%;
+        top: 36%;
         left: 66%;
     }
     .decor2{
         position: absolute;
         width: 17%;
         left: 0;
-        top: 47%;
+        top: 47.7%;
     }
     .head-content{
         font-size: 2rem;
@@ -82,7 +96,7 @@ $choco: #95776E;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 6rem;
+    padding-top: 2rem;
 }
 
 .food-category{
@@ -102,7 +116,7 @@ $choco: #95776E;
            .icon-container{
                width: 15rem;
                height: 15rem;
-               border-style: groove;
+               border-style: solid;
                display: flex;
                justify-content: center;
                img{
@@ -120,11 +134,17 @@ $choco: #95776E;
 }
 
 .food-list{
+    background-color: $pink;
+    padding: 3rem 0rem;
     h1{
         @include heading();
+        color: $yellow;
     }
     .list-content{
         margin: 2rem 20rem;
+        hr{
+            border-style: solid;
+        }
         .list-item{
             display: flex;
             flex-direction: row;
@@ -142,12 +162,12 @@ $choco: #95776E;
                 h4{
                     font-size: 1.5rem;
                     span{
-                        color: $pink;
+                        color: $yellow;
                     }
                 }
                 p {
                     font-size: 1rem;
-                    color: $choco;
+                    color: #494747;
                     margin-top: 0.5rem;
                 }
             }
@@ -156,3 +176,194 @@ $choco: #95776E;
     }
 }
 
+.sec-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h3{
+        margin-top: 6rem;
+        font-size: 2.8rem;
+        font-weight: bold;
+        color: $pink;
+        span{
+            color: $choco;
+        }
+    }
+    h1 {
+        font-size: 3.7rem;
+        color: $pink;
+        span{
+             color: $choco;
+        }
+    }
+    img{
+        width: 60%;
+    }
+    h2{
+        color: $choco;
+        font-size: 3.2rem;
+        span {
+            color: rgb(223, 43, 43);
+        }
+    }
+    h4{
+        color: $choco;
+        font-size: 2rem;
+    }
+    @mixin sec4(){
+        width: 28rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        h4{
+            text-align: center;
+            color: $pink;
+            margin: 1rem;
+        }
+    }
+    @mixin sec-4-lists(){
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: $choco;
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin: 0.5rem 3rem;
+    }
+    .sec-4-content{
+        display: flex;
+        flex-direction: row;
+        .ingredients{
+            @include sec4();
+            .ingredients-item{
+                @include sec-4-lists();
+            }
+        }
+        .nutrition-fact{
+            @include sec4();
+            .fact-item{
+                @include sec-4-lists();
+            }
+        }
+    }
+    margin-bottom: 7rem;
+}
+
+.sec-5{
+    background-color: $yellow;
+    padding: 3rem;
+    h1{
+        @include heading();
+        span{
+            color: #fff;
+        }
+    }
+    .sec-5-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        .fave{
+            display: flex;
+            flex-direction: column;
+            margin: 2rem;
+            img{
+                width: 30rem;
+            }
+            h5{
+                font-size: 3rem;
+                text-align: center;
+                margin: 0.5rem;
+            }
+        }
+    }
+}
+
+.sec-6{
+    display: flex;
+    flex-direction: row;
+    background-color: $pink;
+    align-items: center;
+    img{
+        height: 40rem;
+        margin-top: 6rem;
+    }
+    .decor4{
+        position: absolute;
+        width: 20%;
+        height: 20%;
+        left: 80%;
+        top: 288rem;
+    }
+    .sec-6-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 5rem;
+        padding-left: 3rem;
+        h1 {
+            @include heading();
+            color: $yellow;
+            text-align: left;
+            font-size: 5rem;
+            padding-top: 4rem;
+        }
+        p {
+            font-size: 1.5rem;
+            padding: 1rem 0rem;
+            font-weight: 500;
+        }
+    }
+}
+
+.sec-7{
+    background-color: $yellow;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2rem;
+    h5{
+        font-size: 1.2rem;
+    }
+    .left{
+        width: 30%;
+        padding: 2rem;
+        .left-content{
+            padding: 1rem;
+        }
+    }
+    .mid{
+        width: 30%;
+        padding: 2rem;
+        .mid-content{
+            padding: 1rem;
+        }
+    }
+    .right{
+        width: 25%;
+        padding: 2rem;
+        .right-content{
+            padding: 1rem;
+        }
+        .sosmed{
+            img{
+                width: 3rem;
+                margin: 0rem 0.5rem;
+                &:hover {
+                    opacity: 70%;
+                }
+            }
+        }
+    }
+}
+
+footer{
+    background-color: $pink;
+    p{
+        color: #fff;
+        font-weight: 400;
+        text-align: center;
+        padding: 0.5rem;
+    }
+}
