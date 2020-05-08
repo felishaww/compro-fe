@@ -1,10 +1,10 @@
 # fe-regen
 
 ### module progress:
-- [ ] homepage
-    - [ ] navbar
-    - [ ] food category
-    - [ ] food list
+- [x] homepage
+    - [x] navbar
+    - [x] food category
+    - [x] food list
 - [x] login page
 - [x] registration page
 - [ ] create page

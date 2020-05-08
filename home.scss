@@ -15,6 +15,9 @@ $choco: #95776E;
     align-items: center;
     background-color: $yellow;
     padding: 1rem;
+    position: fixed;
+    width: 100%; 
+    transition: top 0.3s; 
     .nav-item{
         color: rgb(194, 152, 0);
         font-weight: bold;
@@ -23,6 +26,17 @@ $choco: #95776E;
         text-decoration: none;
         &:hover {
             color: $pink;
+        }
+    }
+    .sign-in-btn{
+        border-radius: 20px;
+        border: 4px solid  $pink;
+        font-size: 1rem;
+        font-weight: bold;
+        padding: 5px 30px;
+        &:hover{
+            background-color: $pink;
+            color: #fff;
         }
     }
     
@@ -36,7 +50,7 @@ $choco: #95776E;
     color: #fff;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 11rem;
+    padding-top: 15rem;
     padding-bottom: 5rem;;
     h1 {
         font-weight: 900;
@@ -52,14 +66,14 @@ $choco: #95776E;
     .decor1{
         position: absolute;
         width: 5.4%;
-        top: 35.5%;
+        top: 36%;
         left: 66%;
     }
     .decor2{
         position: absolute;
         width: 17%;
         left: 0;
-        top: 47%;
+        top: 47.7%;
     }
     .head-content{
         font-size: 2rem;
@@ -335,6 +349,7 @@ $choco: #95776E;
         .sosmed{
             img{
                 width: 3rem;
+                margin: 0rem 0.5rem;
                 &:hover {
                     opacity: 70%;
                 }
@@ -346,7 +361,7 @@ $choco: #95776E;
 footer{
     background-color: $pink;
     p{
-        color: #000;
+        color: #fff;
         font-weight: 400;
         text-align: center;
         padding: 0.5rem;
