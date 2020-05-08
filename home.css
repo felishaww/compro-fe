@@ -69,6 +69,7 @@
   display: flex;
   flex-direction: column;
   padding: 5rem 20rem;
+  background-color: #FFDD67;
 }
 .food-category h1 {
   color: #FF9293;
@@ -92,7 +93,7 @@
 .food-category .category-content .category-item .icon-container {
   width: 15rem;
   height: 15rem;
-  border-style: groove;
+  border-style: solid;
   display: flex;
   justify-content: center;
 }
@@ -106,14 +107,22 @@
   color: #414040;
 }
 
+.food-list {
+  background-color: #FF9293;
+  padding: 3rem 0rem;
+}
 .food-list h1 {
   color: #FF9293;
   font-weight: 700;
   text-align: center;
   font-size: 3.5rem;
+  color: #FFDD67;
 }
 .food-list .list-content {
   margin: 2rem 20rem;
+}
+.food-list .list-content hr {
+  border-style: solid;
 }
 .food-list .list-content .list-item {
   display: flex;
@@ -135,11 +144,11 @@
   font-size: 1.5rem;
 }
 .food-list .list-content .list-item .list-details h4 span {
-  color: #FF9293;
+  color: #FFDD67;
 }
 .food-list .list-content .list-item .list-details p {
   font-size: 1rem;
-  color: #95776E;
+  color: #494747;
   margin-top: 0.5rem;
 }
 
@@ -226,9 +235,7 @@
 
 .sec-5 {
   background-color: #FFDD67;
-  margin: 2rem;
   padding: 3rem;
-  border-radius: 15px;
 }
 .sec-5 h1 {
   color: #FF9293;

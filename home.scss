@@ -89,6 +89,7 @@ $choco: #95776E;
    display: flex;
    flex-direction: column; 
    padding: 5rem 20rem;
+   background-color: $yellow;
    h1{
     @include heading();
    }
@@ -102,7 +103,7 @@ $choco: #95776E;
            .icon-container{
                width: 15rem;
                height: 15rem;
-               border-style: groove;
+               border-style: solid;
                display: flex;
                justify-content: center;
                img{
@@ -120,11 +121,17 @@ $choco: #95776E;
 }
 
 .food-list{
+    background-color: $pink;
+    padding: 3rem 0rem;
     h1{
         @include heading();
+        color: $yellow;
     }
     .list-content{
         margin: 2rem 20rem;
+        hr{
+            border-style: solid;
+        }
         .list-item{
             display: flex;
             flex-direction: row;
@@ -142,12 +149,12 @@ $choco: #95776E;
                 h4{
                     font-size: 1.5rem;
                     span{
-                        color: $pink;
+                        color: $yellow;
                     }
                 }
                 p {
                     font-size: 1rem;
-                    color: $choco;
+                    color: #494747;
                     margin-top: 0.5rem;
                 }
             }
@@ -231,9 +238,7 @@ $choco: #95776E;
 
 .sec-5{
     background-color: $yellow;
-    margin: 2rem;
     padding: 3rem;
-    border-radius: 15px;
     h1{
         @include heading();
         span{
