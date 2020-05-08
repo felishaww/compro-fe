@@ -266,4 +266,44 @@
   margin: 0.5rem;
 }
 
+.sec-6 {
+  display: flex;
+  flex-direction: row;
+  background-color: #FF9293;
+  align-items: center;
+}
+.sec-6 img {
+  height: 40rem;
+  margin-top: 6rem;
+}
+.sec-6 .decor4 {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  left: 80%;
+  top: 273rem;
+}
+.sec-6 .sec-6-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 5rem;
+  padding-left: 3rem;
+}
+.sec-6 .sec-6-content h1 {
+  color: #FF9293;
+  font-weight: 700;
+  text-align: center;
+  font-size: 3.5rem;
+  color: #FFDD67;
+  text-align: left;
+  font-size: 5rem;
+  padding-top: 4rem;
+}
+.sec-6 .sec-6-content p {
+  font-size: 1.5rem;
+  padding: 1rem 0rem;
+  font-weight: 500;
+}
+
 /*# sourceMappingURL=home.css.map */
