@@ -69,7 +69,6 @@
   display: flex;
   flex-direction: column;
   padding: 5rem 20rem;
-  background-color: #FFDD67;
 }
 .food-category h1 {
   color: #FF9293;
@@ -258,7 +257,7 @@
   margin: 2rem;
 }
 .sec-5 .sec-5-content .fave img {
-  width: 35rem;
+  width: 30rem;
 }
 .sec-5 .sec-5-content .fave h5 {
   font-size: 3rem;
@@ -281,7 +280,7 @@
   width: 20%;
   height: 20%;
   left: 80%;
-  top: 292rem;
+  top: 288rem;
 }
 .sec-6 .sec-6-content {
   display: flex;
@@ -304,6 +303,55 @@
   font-size: 1.5rem;
   padding: 1rem 0rem;
   font-weight: 500;
+}
+
+.sec-7 {
+  background-color: #FFDD67;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2rem;
+}
+.sec-7 h5 {
+  font-size: 1.2rem;
+}
+.sec-7 .left {
+  width: 30%;
+  padding: 2rem;
+}
+.sec-7 .left .left-content {
+  padding: 1rem;
+}
+.sec-7 .mid {
+  width: 30%;
+  padding: 2rem;
+}
+.sec-7 .mid .mid-content {
+  padding: 1rem;
+}
+.sec-7 .right {
+  width: 25%;
+  padding: 2rem;
+}
+.sec-7 .right .right-content {
+  padding: 1rem;
+}
+.sec-7 .right .sosmed img {
+  width: 3rem;
+}
+.sec-7 .right .sosmed img:hover {
+  opacity: 70%;
+}
+
+footer {
+  background-color: #FF9293;
+}
+footer p {
+  color: #000;
+  font-weight: 400;
+  text-align: center;
+  padding: 0.5rem;
 }
 
 /*# sourceMappingURL=home.css.map */

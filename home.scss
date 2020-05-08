@@ -89,7 +89,6 @@ $choco: #95776E;
    display: flex;
    flex-direction: column; 
    padding: 5rem 20rem;
-   background-color: $yellow;
    h1{
     @include heading();
    }
@@ -255,7 +254,7 @@ $choco: #95776E;
             flex-direction: column;
             margin: 2rem;
             img{
-                width: 35rem;
+                width: 30rem;
             }
             h5{
                 font-size: 3rem;
@@ -280,7 +279,7 @@ $choco: #95776E;
         width: 20%;
         height: 20%;
         left: 80%;
-        top: 292rem;
+        top: 288rem;
     }
     .sec-6-content{
         display: flex;
@@ -303,3 +302,53 @@ $choco: #95776E;
     }
 }
 
+.sec-7{
+    background-color: $yellow;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2rem;
+    h5{
+        font-size: 1.2rem;
+    }
+    .left{
+        width: 30%;
+        padding: 2rem;
+        .left-content{
+            padding: 1rem;
+        }
+    }
+    .mid{
+        width: 30%;
+        padding: 2rem;
+        .mid-content{
+            padding: 1rem;
+        }
+    }
+    .right{
+        width: 25%;
+        padding: 2rem;
+        .right-content{
+            padding: 1rem;
+        }
+        .sosmed{
+            img{
+                width: 3rem;
+                &:hover {
+                    opacity: 70%;
+                }
+            }
+        }
+    }
+}
+
+footer{
+    background-color: $pink;
+    p{
+        color: #000;
+        font-weight: 400;
+        text-align: center;
+        padding: 0.5rem;
+    }
+}
