@@ -5,6 +5,18 @@
   font-family: Poppins, Montserrat, Tahoma;
 }
 
+body::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #da8385;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #f5c92c;
+}
+
 .nav {
   z-index: 1;
   display: flex;
@@ -124,7 +136,7 @@
 }
 
 .food-list {
-  background-color: #FF9293;
+  background-color: #fff;
   padding: 3rem 0rem;
 }
 .food-list h1 {
@@ -160,7 +172,7 @@
   font-size: 1.5rem;
 }
 .food-list .list-content .list-item .list-details h4 span {
-  color: #FFDD67;
+  color: #FF9293;
 }
 .food-list .list-content .list-item .list-details p {
   font-size: 1rem;
@@ -295,6 +307,7 @@
 }
 .sec-6 .decor4 {
   position: absolute;
+  z-index: 0;
   width: 20%;
   height: 20%;
   right: 0;

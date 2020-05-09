@@ -20,7 +20,7 @@ body {
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2), 0 10px 10px rgba(0, 0, 0, 0.2);
-  background: #ccc;
+  background: #ece6e6;
 }
 .container .overlay-container {
   position: absolute;

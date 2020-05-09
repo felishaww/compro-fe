@@ -9,6 +9,18 @@ $pink : #FF9293;
 $yellow: #FFDD67;
 $choco: #95776E;
 
+body::-webkit-scrollbar {
+    width: 0.4rem;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(218, 131, 133) ;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background:rgb(245, 201, 44);
+  }
+
 .nav {
     z-index: 1;
     display: flex;
@@ -138,7 +150,7 @@ $choco: #95776E;
 }
 
 .food-list{
-    background-color: $pink;
+    background-color: #fff;
     padding: 3rem 0rem;
     h1{
         @include heading();
@@ -166,7 +178,7 @@ $choco: #95776E;
                 h4{
                     font-size: 1.5rem;
                     span{
-                        color: $yellow;
+                        color: $pink;
                     }
                 }
                 p {
@@ -295,6 +307,7 @@ $choco: #95776E;
     }
     .decor4{
         position: absolute;
+        z-index: 0;
         width: 20%;
         height: 20%;
         right: 0;
