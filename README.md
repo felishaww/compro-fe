@@ -7,9 +7,9 @@
     - [x] food list
 - [x] login page
 - [x] registration page
-- [ ] create page
-    - [ ] food category
-    - [ ] food list
-- [ ] edit page
-    - [ ] food category
-    - [ ] food list
+- [x] create page
+    - [x] food category
+    - [x] food list
+- [x] edit page
+    - [x] food category
+    - [x] food list
