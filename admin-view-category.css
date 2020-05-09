@@ -9,11 +9,8 @@ main {
   margin-left: 5rem;
 }
 
-nav {
-  transition: width 200ms ease;
-}
-
 .navbar {
+  transition: width 200ms ease;
   position: fixed;
   background-color: #FFDD67;
   height: 100vh;
@@ -57,12 +54,17 @@ nav {
   width: 2rem;
   min-width: 2rem;
   margin: 0 1.5rem;
+  transform: rotate(0deg);
+  transition: 600ms;
 }
 
 .nav-link:hover {
   filter: grayscale(0%) opacity(1);
   background: #FFD131;
   color: #000;
+}
+.nav-link:hover img {
+  transform: rotate(360deg);
 }
 
 .link-text {
@@ -101,8 +103,8 @@ nav {
   padding: 1rem 2rem;
 }
 .food-category .category-content .category-item .icon-container {
-  width: 15rem;
-  height: 15rem;
+  width: 12rem;
+  height: 11rem;
   border-style: solid;
   display: flex;
   justify-content: center;
@@ -133,7 +135,7 @@ nav {
   border-radius: 20px;
   margin: 0.5rem;
   color: #fff;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: bold;
   padding: 5px 30px;
   letter-spacing: 1px;

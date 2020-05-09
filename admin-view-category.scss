@@ -14,10 +14,8 @@ $yellow: #FFDD67;
 $yellow-second: #FFD131;
 $choco: #95776E;
 
-nav{
-    transition: width 200ms ease;
-}
 .navbar{
+    transition: width 200ms ease;
     position: fixed;
     background-color: $yellow;
     height: 100vh;
@@ -59,6 +57,8 @@ nav{
         width: 2rem;
         min-width: 2rem;
         margin: 0 1.5rem;
+        transform: rotate(0deg);
+        transition: 600ms;
     }
 }
 
@@ -66,6 +66,9 @@ nav{
     filter: grayscale(0%) opacity(1);
     background: $yellow-second;
     color: #000;
+    img{
+        transform: rotate(360deg);
+    }
   }
 
 .link-text {
@@ -108,8 +111,8 @@ nav{
             align-items: center;
             padding: 1rem 2rem;
             .icon-container{
-                width: 15rem;
-                height: 15rem;
+                width: 12rem;
+                height: 11rem;
                 border-style: solid;
                 display: flex;
                 justify-content: center;
@@ -141,7 +144,7 @@ nav{
             border-radius: 20px;
             margin: 0.5rem;
             color: #fff;
-            font-size: 1rem;
+            font-size: 0.8rem;
             font-weight: bold;
             padding: 5px 30px;
             letter-spacing: 1px;
