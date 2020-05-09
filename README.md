@@ -9,7 +9,7 @@
 - [x] registration page
 - [ ] create page
     - [ ] food category
-    - [ ] food list
+    - [x] food list
 - [ ] edit page
     - [ ] food category
-    - [ ] food list
+    - [x] food list
